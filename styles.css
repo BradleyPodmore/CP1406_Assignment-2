@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-color : #0000ff;
+	margin : 0;
+	padding : 0;
+	font-family : "Helvitica", "Arial";
+}
+#wrapper {
+     width : 960px;
+	 height : auto;
+	 background-color : #0080ff;
+	 border-left : 5px solid #4c4cff;
+	 border-right : 5px solid #4c4cff;
+	 overflow : auto;
+	 margin : 0 auto;
+	 padding : 10px;
+}
+
+#header {
+     width : 100%;
+	 height : 150px;
+	 border-bottom : 3px solid #000066;
+}
+#header h1 {
+     float : left;
+}
+
+#logo {
+     float : left-side;
+	 margin : 0px 30px 0px 80px;
+}
+
+#social {
+     float : bottom-right;
+     margin : 0px 0px 0px 0px	;
+}
+
+#social ul li {
+     float : left;
+     list-style-type : none;
+     padding-right : 5px;
+}	 
+
+#social img {
+     height : 55px;
+	 width : 55px;
+}
+
+#menu ul li {
+     padding : 15px;
+	 text-align : center;
+}
+	 
+#menu ul li a {
+     text-decoration : none;
+}
+
+#menu ul li a:hover {
+     color : #fff;
+}
+
+a, a:visited {
+     color: inherit;
+}
+
+#content {
+     float : left;
+	 width : 655px;
+	 height : 100%;
+	 padding-left : 15px;
+	 letter-spacing : 1;
+	 color : #57574c
+	 border-left : 3px solid #000066
+}
+#content h1 {
+     float : left;
+     
